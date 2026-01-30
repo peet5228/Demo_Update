@@ -1,15 +1,7 @@
 <template>
     <v-row class="mb-2">
         <v-col cols="12" md="4" class="ms-auto">
-            <v-text-field
-                v-model="search"
-                append-inner-icon="mdi-magnify"
-                label="ค้นหาชื่อ, นามสกุล หรือชื่อผู้ใช้..."
-                variant="outlined"
-                density="compact"
-                hide-details
-                clearable
-            ></v-text-field>
+            <v-text-field v-model="search" append-inner-icon="mdi-magnify" label="ค้นหาชื่อ, นามสกุล หรือชื่อผู้ใช้..." variant="outlined" ></v-text-field>
         </v-col>
     </v-row>
     <v-table>
